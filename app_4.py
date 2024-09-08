@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load the saved model
-model = tf.keras.models.load_model('food_classification_model.h5')
+model = tf.keras.models.load_model('food_classification_model_1.h5')
 
 # Function to preprocess and predict
 def predict(image):
